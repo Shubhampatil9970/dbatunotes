@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Study Material</title>
+
+    <link rel="icon" type="image/x-icon" href="documents/favicon-16x16.png">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1c6de;
+            color: #ba3ca7;
+        }
+
+        header {
+            background-color: #b353ab;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        .header-logo {
+            float: left; /* Aligns the logo to the left */
+            height: 165px; /* Adjust height as needed */
+            margin-left: 20px; /* Adds some space from the left edge */
+            margin-right: 15px; /* Adds space between logo and text */
+            margin-top: -10px; /* Adjust vertically to align with text */
+        }
+
+        header h1 {
+            display: inline-block; /* Allows text to flow next to the logo */
+            vertical-align: middle; /* Vertically aligns the text with the logo */
+        }
+
+        header h2 {
+            display: inline-block; /* Allows text to flow next to the logo */
+            vertical-align: middle; /* Vertically aligns the text with the logo */
+        }
+
+        nav {
+            background-color: #ddd;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #ccc;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .subject-section {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .subject-section h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+
+        .material-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .material-list li {
+            margin-bottom: 10px;
+        }
+
+        .material-list li a {
+            display: block;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+
+        .material-list li a:hover {
+            background-color: #eee;
+        }
+
+        footer p a{
+            color: white;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #fa89cd;
+            color: white;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="documents/logo.jpg" alt="Student Study Material Logo" class="header-logo">
+       <centere> <h1>Student Study Material</h1><br>
+        <h2>Semester 4</h2></centere>
+    </header>
+
+    <nav>
+        <a href="#P&S">Probability and Statastic</a>
+        <a href="#DAA">Design and Analysis of Algorithm</a>
+        <a href="#DLDM">Digital Logic Design and Microproccer</a>
+        <a href="#UHV">UHV</a>
+        <a href="#BHR">BHR</a>
+        <a href="#OS">Operating System</a>
+        
+    </nav>
+
+    <div class="container">
+        <section id="P&S" class="subject-section">
+            <h2>Probability and Statastic</h2>
+            <ul class="material-list">
+                <li><a href=".pdf">Syllabus & Notes</a></li>
+                <li><a href="documents/dmimp.pdf" target="_blank">Very IMP points</a></li>
+                <li><a href="documents/P&S_allpyq.pdf" target="_blank">Previous Year Question papers</a></li>
+            </ul>
+        </section>
+
+        <section id="DAA" class="subject-section">
+            <h2>Design and Analysis of Algorithm</h2>
+            <ul class="material-list">
+                <li><a href="documents/DAA_notes.pdf" target="_blank">Syllabus & Notes</a></li>
+                <li><a href="documents/DAA_imp.pdf" target="_blank">Very IMP points</a></li>
+                <li><a href="documents/DAA_allpyq.pdf" target="_blank">Previous Year Question papers</a></li>
+            </ul>
+        </section>
+
+        <section id="DLDM" class="subject-section">
+            <h2>Digital Logic Design and Microproccer</h2>
+            <ul class="material-list">
+                <li><a href="documents/DLDM_notes.pdf" target="_blank">Syllabus & Notes</a></li>
+                <li><a href="documents/DLDM_IMP.pdf" target="_blank">Very IMP points</a></li>
+                <li><a href="documents/DLDM_allpyq.pdf" target="_blank">Previous Year Question papers</a></li>
+            </ul>
+        </section>
+
+        <section id="UHV" class="subject-section">
+            <h2>UHV</h2>
+            <ul class="material-list">
+                <li><a href="english/grammar_rules.pdf" target="_blank">Syllabus & Notes</a></li>
+                <li><a href="english/literary_terms.pdf" target="_blank">Very IMP points</a></li>
+                <li><a href="english/essay_writing_guide.pdf" target="_blank">Previous Year Question papers</a></li>
+            </ul>
+        </section>
+
+        <section id="BHR" class="subject-section">
+            <h2>Basic Human Rights</h2>
+            <ul class="material-list">
+                <li><a href="science/physics_laws.pdf" target="_blank">Syllabus & Notes</a></li>
+                <li><a href="science/chemistry_reactions.pdf" target="_blank">Very IMP points</a></li>
+                <li><a href="science/biology_diagrams.pdf" target="_blank">Previous Year Question papers</a></li>
+            </ul>
+        </section>
+
+        <section id="OS" class="subject-section">
+            <h2>Operating System</h2>
+            <ul class="material-list">
+                <li><a href="documents/OS_notes.pdf" target="_blank">Syllabus & Notes</a></li>
+                <li><a href="documents/OS_imp.pdf" target="_blank">Very IMP points</a></li>
+                <li><a href="documents/OS_allpyq.pdf" target="_blank">Previous Year Question papers</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+    <p>&copy; 2025 Student Study Material</p>
+    <p>Contact: <a href="mailto:your_email@example.com">shubhamsp9970@gmail.com</a></p>
+    </footer>
+</body>
+</html>
